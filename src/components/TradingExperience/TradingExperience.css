@@ -1,0 +1,116 @@
+.trader-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10rem;
+}
+
+.trader-section .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 40rem;
+    margin: 0 auto 6.5rem;
+}
+
+.trader-section .trading-terminal img{
+    margin: 0 auto;
+}
+
+.trader-section .caption {
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 57vw;
+    font-weight: 500;
+    line-height: 30px;
+    color: #E7E7E7;
+    margin-top: 4.25rem;
+}
+
+.trader-section .feature-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6.5rem;
+}
+
+.trader-section .feature-list .feature{
+    flex-basis: 33%;
+    max-width: 20rem;
+}
+
+.trader-section .feature{
+    margin-bottom: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #ABABB9;
+}
+
+.trader-section .feature span{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 25px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.trader-section .feature img{
+    margin-right: 0.35rem;
+}
+
+.trader-section .image-feature-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.trader-section .image-feature-list .image-feature{
+    background: #171717;
+    border-radius: 20px;
+    width: 34vw;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2.5rem 2rem 0rem;
+}
+
+.trader-section .image-feature-list .image-feature .title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.trader-section .image-feature-list .image-feature img{
+    width: 100%;
+}
+
+.trader-section .image-feature-list .image-feature .image{
+    margin-top: auto;
+}
+
+.trader-section .image-feature-list .image-feature .caption{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 30px;
+    width: 100%;
+    color: #ABABB9;
+    text-align: left;
+    margin-top: 0;
+}

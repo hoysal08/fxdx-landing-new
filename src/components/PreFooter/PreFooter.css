@@ -1,0 +1,15 @@
+.pre-footer-section .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 35rem;
+    margin: 7.5rem auto 0;
+}
+
+.pre-footer-section .token-list{
+    display: flex;
+    justify-content: space-evenly;
+}

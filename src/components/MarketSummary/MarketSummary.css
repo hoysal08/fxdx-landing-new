@@ -1,0 +1,78 @@
+
+.market-summary-section {
+
+}
+
+.market-summary-section .title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 10rem;
+    margin-bottom: 12.5rem;
+}
+
+.market-summary-section .table {
+   padding: 0 10rem;
+}
+
+.market-summary-section .table .table-header{
+    display: flex;
+    margin-bottom: 4.25rem;
+}
+.market-summary-section .table .table-header span{
+    width: 25%;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.2687px;
+    line-height: 36px;
+    color: #AAAAAA;
+    text-align: right;
+}
+.market-summary-section .table .table-body .row span{
+    width: 25%;
+    text-align: right;
+    margin-bottom: 2.25rem;
+}
+.market-summary-section .table .table-header span:nth-child(1),
+.market-summary-section .table .table-body .row span:nth-child(1){
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.market-summary-section .table .table-body .row span p{
+    margin: 0;
+    margin-right: 0.5rem;
+    font-weight: 700;
+}
+
+.market-summary-section .table .table-body .row {
+    display: flex;
+}
+
+.market-summary-section .trade-button{
+    display: flex;
+    justify-content: center;
+}
+
+.market-summary-section .trade-button a{
+    background: #FFFFFF;
+    border-radius: 1rem;
+    width: 12.5rem;
+    text-align: center;
+    margin: 3.5rem auto 6.5rem;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+

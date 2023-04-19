@@ -1,0 +1,123 @@
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.introduction {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #2F2F2F;
+    border-radius: 28.0149px;
+    width: 10rem;
+    padding: 0.5rem 0.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.introduction span {
+    display: flex;
+    align-items: flex-start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.0939px;
+    line-height: 13px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+
+}
+
+.hero .trading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7.5rem;
+    line-height: 12vh;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.hero .supercharged {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 7.5rem;
+    text-align: center;
+    background: linear-gradient(90.1deg, #6700FF 0.14%, #FA00FF 50.81%, #00DAFF 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.35rem;
+}
+
+.hero-caption {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #ABABB9;
+    width: 50vw;
+    line-height: 25px;
+}
+
+.hero-section .links{
+    display: flex;
+    margin-top: 2.5rem;
+}
+
+.hero-section .links a{
+    text-decoration: none;
+    background: #000000;
+    border: 1px solid #E2E2E3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 35px;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.hero-section .links a:nth-child(1){
+    text-decoration: none;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 35px;
+    gap: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 0.75rem;
+}
+
+.hero-section .trading-terminal{
+    margin-top: 3.5rem;
+}
+
+.hero h1{
+    margin-top: 0;
+}

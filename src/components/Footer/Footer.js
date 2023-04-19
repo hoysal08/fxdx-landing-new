@@ -1,4 +1,4 @@
-import fxdxlogo from "../../img/fxdxlogo.svg";
+import fxdxlogo from "../../img/fxdx-logo.svg";
 import { SiTwitter, SiDiscord } from 'react-icons/si';
 import { FaTelegramPlane } from 'react-icons/fa';
 import "./Footer.css";
@@ -20,10 +20,10 @@ export function Footer() {
                         <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
                             <FaTelegramPlane color="white"  />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://test.fxdx.exchange/" >
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
                             <SiDiscord color="white"  />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://test.fxdx.exchange/" >
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
                             <SiDiscord color="white"  />
                         </a>
                     </div>
@@ -35,10 +35,10 @@ export function Footer() {
                         <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
                             <FaTelegramPlane color="white"  />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://test.fxdx.exchange/" >
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
                             <SiDiscord color="white"  />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://test.fxdx.exchange/" >
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
                             <SiDiscord color="white"  />
                         </a>
                     </div>
@@ -50,8 +50,8 @@ export function Footer() {
                             Menu
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="">Help Cente</a >
-                        <a target="_blank" rel="noreferrer" href="">Blog</a >
+                        <a target="_blank" rel="noreferrer" href="https://discord.com/channels/891555109492899891/891555110130442275">Help Cente</a >
+                        <a target="_blank" rel="noreferrer" href="https://fxdxdex.medium.com/">Blog</a >
                     </div>
                 </div>
             
@@ -61,8 +61,8 @@ export function Footer() {
                             Terms
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="">Terms Of Use</a >
-                        <a target="_blank" rel="noreferrer" href="">Purchase Policy</a >
+                        <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/termsOfUse.html">Terms Of Use</a >
+                        <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/privacyPolicy.html">Purchase Policy</a >
                     </div>
                 </div>
                 <div className="footer-right">
@@ -71,9 +71,9 @@ export function Footer() {
                             Products
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="">Mainnet</a >
-                        <a target="_blank" rel="noreferrer" href="">Testnet</a >
-                        <a target="_blank" rel="noreferrer" href="">Add Liquidity</a >
+                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Mainnet</a >
+                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Testnet</a >
+                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/buy">Add Liquidity</a >
                     </div>
                 </div>
                 <div className="footer-right">
@@ -82,11 +82,11 @@ export function Footer() {
                             Docs
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="">Analytics</a >
-                        <a target="_blank" rel="noreferrer" href="">Earn Dashboard</a >
-                        <a target="_blank" rel="noreferrer" href="">Whitepaper</a >
-                        <a target="_blank" rel="noreferrer" href="">Github</a >
-                        <a target="_blank" rel="noreferrer" href="">Fees</a >
+                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/overview">Analytics</a >
+                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/earn">Earn Dashboard</a >
+                        <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/architectureAndInfrastructure/index.html">Whitepaper</a >
+                        <a target="_blank" rel="noreferrer" href="https://github.com/fxdxdex">Github</a >
+                        <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/tradingFees.html">Fees</a >
                     </div>
                 </div>
             </div>
