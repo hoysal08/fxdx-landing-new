@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+    width: 80vw;
 }
 
 .footer-right div{
@@ -44,13 +45,57 @@
     color: #8C8C8C;
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer-left {
+    width: 13.5rem;
 }
 
 .footer-left .logo,
 .footer-left .socials-container{
-    margin-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
 }
 
-.footer-left .socials{
-    margin-right: 1rem;
+/* .footer-left .socials{
+    margin-right: 1.5rem;
+} */
+
+.footer-left .socials-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-setting{
+    background: #373737;
+    border-radius: 0.75rem;
+    width: 100%;
+    height: 2.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0.35rem 0.75rem;
+    align-items: center;
+}
+
+.theme-setting .light-dark{
+    background: #000000;
+    border-radius: 0.75rem;
+    width: 5rem;
+    height: 80%;
+    padding: 0.25rem ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-setting .light-dark .active{
+    background: #565656;
+}
+.theme-setting .light-dark .symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 2rem;
+    margin: 0.15rem 0.05rem;
 }

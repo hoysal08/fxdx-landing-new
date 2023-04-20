@@ -13,3 +13,196 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.pre-footer-section .token-list{
+    margin : 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 4.5rem;
+    width: 55vw;
+}
+
+.pre-footer-section .token-list .fxdxtokenicon{
+    box-shadow: 0px 0px 250px rgba(255, 255, 255, 0.6);
+    border-radius: 100%;
+}
+
+.pre-footer-section .caption{
+    margin: 5rem auto 10rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #E7E7E7;
+    width: 60vw;
+}
+
+.pre-footer-section .email-caption{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #E5E6ED;
+}
+.pre-footer-section .email-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 110%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0.5rem auto 6.5rem;
+}
+
+.pre-footer-section .email-input{
+    width: 70vw;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 6.5rem;
+
+    background: rgba(47, 50, 65, 0.5);
+    border: 1px solid #34384C;
+    border-radius: 100px;
+    margin-bottom: 6.5rem;
+}
+
+.pre-footer-section .email-input input{
+    width: 90vw;
+}
+
+.pre-footer-section .email-input button{
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 2rem;
+    gap: 0.75rem;
+    background: #FFFFFF;
+    border-radius: 6.5rem;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 160%;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 0;
+    margin: 0.175rem 0.45rem;
+    cursor: pointer;
+}
+
+.pre-footer-section .roadmap-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 3.5rem;
+}
+
+.pre-footer-section .roadmap-caption{
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #E7E7E7;
+    width: 58vw;
+    margin-bottom: 0.35rem;
+}
+
+
+.roadmap-title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.roadmap-caption {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.roadmap-body {
+    /* display: flex;
+    justify-content: space-between;
+
+    margin-top: 4.25rem;
+    margin-bottom: 10rem; */
+
+    
+}
+
+.each-quarter {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.each-quarter .roadmap-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 105%;
+    color: #FFFFFF;
+    margin-bottom: 3.5rem;
+}
+
+.each-quarter .time {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22.8678px;
+    line-height: 105%;
+    color: #FFFFFF;
+    margin-bottom: 1.25rem;
+}
+
+.each-quarter .caption {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 105%;
+    text-align: center;
+    color: #727272;
+    margin: 0;
+    width: 19.5rem;
+}
+
+
+.roadmap-body .dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.roadmap-body .each-quarter:nth-child(1) .dot{
+    background: #5FFB00;
+    box-shadow: 0px 0px 18.2942px #FFFFFF;
+}
+.roadmap-body .each-quarter:nth-child(2) .dot{
+    background: #F9AA4B;
+}
+
+
+.section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+    margin-top: 4.25rem;
+    margin-bottom: 10rem;
+  }
+  
+
+  

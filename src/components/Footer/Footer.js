@@ -1,4 +1,6 @@
 import fxdxlogo from "../../img/fxdx-logo.svg";
+import sun from "../../img/sun.svg";
+import moon from "../../img/moon.svg";
 import { SiTwitter, SiDiscord } from 'react-icons/si';
 import { FaTelegramPlane } from 'react-icons/fa';
 import "./Footer.css";
@@ -15,32 +17,40 @@ export function Footer() {
             
                     <div className="socials-container">
                         <a className="socials" target="_blank" rel="noreferrer" href="https://twitter.com/fxdxdex" >
-                            <SiTwitter color="white" />
+                            <SiTwitter color="white" size={24}/>
                         </a>
                         <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
-                            <FaTelegramPlane color="white"  />
+                            <FaTelegramPlane color="white" size={24} />
                         </a>
                         <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white"  />
+                            <SiDiscord color="white"  size={24}/>
                         </a>
                         <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white"  />
+                            <SiDiscord color="white" size={24} />
                         </a>
                     </div>
             
                     <div className="socials-container">
                         <a className="socials" target="_blank" rel="noreferrer" href="https://twitter.com/fxdxdex" >
-                            <SiTwitter color="white" />
+                            <SiTwitter color="white"size={24} />
                         </a>
                         <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
-                            <FaTelegramPlane color="white"  />
+                            <FaTelegramPlane color="white" size={24} />
                         </a>
                         <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white"  />
+                            <SiDiscord color="white"  size={24}/>
                         </a>
                         <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white"  />
+                            <SiDiscord color="white"  size={24}/>
                         </a>
+                    </div>
+
+                    <div className="theme-setting">
+                        <div>Theme</div>
+                        <div className="light-dark">
+                        <span className="active symbol"><img src={moon} alt="dark mode" /></span>
+                        <span className="symbol" ><img src={sun} alt="dark mode" /></span>
+                        </div>
                     </div>
                 </div>
             

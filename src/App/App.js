@@ -18,7 +18,7 @@ function App() {
       <PreFooter />
 
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
