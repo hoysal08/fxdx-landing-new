@@ -21,28 +21,6 @@ export function PreFooter() {
         // Code to send email using the email state value
         console.log(`Sending email to ${email}`);
     };    
-
-    const sectionRef = useRef(null);
-
-    useEffect(() => {
-        const section = sectionRef.current;
-        const image = section.querySelector('.roadmap-image');
-        const container = section.parentElement;
-    
-        const handleMouseMove = e => {
-          const containerRect = container.getBoundingClientRect();
-          const sectionRect = section.getBoundingClientRect();
-          const x = (e.clientX - containerRect.left) / containerRect.width;
-          const left = (sectionRect.width - image.offsetWidth) * x * -1;
-          image.style.left = `${left}px`;
-        };
-    
-        container.addEventListener('mousemove', handleMouseMove);
-    
-        return () => {
-          container.removeEventListener('mousemove', handleMouseMove);
-        };
-      }, []);
     
 
 
@@ -102,44 +80,11 @@ export function PreFooter() {
                 Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit i adipiscing elit. Nunc vulputate libero et velit i 
             </div>
 
-            <section className="roadmap-body section" ref={sectionRef}>
-                {/* <div className="each-quarter">
-                    <div className="roadmap-title">Q1</div>
-                    <div className="dot"></div>
-                    <div className="time">Jan - Mar 2023</div>
-                    <div className="caption">
-                        Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc Gorem ipsum dolor 
-                    </div>
-                </div>
+            <section className="roadmap-body section" >
 
-                <div className="each-quarter">
-                    <div className="roadmap-title">Q2</div>
-                    <div className="dot"></div>
-                    <div className="time">Apr - Jun 2023</div>
-                    <div className="caption">
-                        Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc Gorem ipsum dolor 
-                    </div>
-                </div>
-
-                <div className="each-quarter">
-                    <div className="roadmap-title">Q3</div>
-                    <div className="dot"></div>
-                    <div className="time">Jul - Sep 2023</div>
-                    <div className="caption">
-                        Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc Gorem ipsum dolor 
-                    </div>
-                </div>
-
-                <div className="each-quarter">
-                    <div className="roadmap-title">Q4</div>
-                    <div className="dot"></div>
-                    <div className="time">Oct - Dec 2023</div>
-                    <div className="caption">
-                        Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc Gorem ipsum dolor 
-                    </div>
-                </div> */}
-
-                <img src={roadmap} alt="roadmap" className="roadmap-image" />
+                <span className="roadmap-image-container">
+                    <img src={roadmap} alt="roadmap" className="roadmap-image" />
+                </span>
 
             </section>
             

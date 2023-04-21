@@ -197,12 +197,30 @@
 
 .section {
     width: 100%;
-    overflow: hidden;
-    position: relative;
+    /* overflow: hidden;
+    position: relative; */
     
     margin-top: 4.25rem;
     margin-bottom: 10rem;
-  }
+}
+
+.roadmap-body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
   
+.roadmap-image-container {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    transition: transform 1s ease-in-out;
+    
+}
+.roadmap-image{
+    margin-left: -25%;
+}
+.roadmap-image-container:hover {
+  transform: translateX(calc(-20% ));
+}
 
   
