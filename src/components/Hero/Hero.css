@@ -117,6 +117,36 @@
 .hero-section .trading-terminal{
     margin-top: 3.5rem;
 }
+  /* div {
+        width: 50%;
+        height: auto;
+        position: relative;
+      } */
+
+.hero-section .trading-terminal img{  
+    box-shadow: 0 0 0 white;
+    border-radius: 10px;
+    animation: clockwise 2s infinite linear;
+     
+}
+
+ @keyframes clockwise {
+        0% {
+          box-shadow: 0 0 0 white;
+        }
+        25% {
+          box-shadow: 0 0 10% white;
+        }
+        50% {
+          box-shadow: 0 0 0 white, 0 0 10% white;
+        }
+        75% {
+          box-shadow: 0 0 0 white, 0 0 10% white, 0 0 20% white;
+        }
+        100% {
+          box-shadow: 0 0 0 white, 0 0 10% white, 0 0 20% white, 0 0 30% white;
+        }
+    }
 
 .hero h1{
     margin-top: 0;

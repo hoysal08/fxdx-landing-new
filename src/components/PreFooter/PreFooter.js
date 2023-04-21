@@ -73,7 +73,7 @@ export function PreFooter() {
             </form>
 
             <div className="roadmap-title">
-                Road map
+                Roadmap
             </div>
 
             <div className="roadmap-caption">
