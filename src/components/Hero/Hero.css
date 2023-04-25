@@ -13,7 +13,7 @@
     border-radius: 28.0149px;
     width: 10rem;
     padding: 0.5rem 0.25rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4.5rem;
 }
 
 .introduction span {
@@ -37,25 +37,45 @@
  .trading {
     font-style: normal;
     font-weight: 700;
-    font-size: 7.5rem;
-    line-height: 12vh;
+    line-height: 8vh;
+    margin-top: 1rem;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 0;
 }
 
- .supercharged {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 7.5rem;
-    text-align: center;
-    background: linear-gradient(90.1deg, #6700FF 0.14%, #FA00FF 50.81%, #00DAFF 99.96%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    margin-bottom: 0.35rem;
+.supercharged,
+.trading{
+  font-size: 7.5rem;
 }
 
+.supercharged {
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  background: linear-gradient(90.1deg, #6700FF, #FA00FF, #00DAFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.35rem;
+  background-size: 200%;
+  animation: flow 5s ease infinite;
+  margin-bottom: 2rem;
+}
+
+
+
+@keyframes flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 .hero .supercharged.small{
   display: none;
 }
@@ -67,7 +87,9 @@
     text-align: center;
     color: #ABABB9;
     width: 50rem;
-    line-height: 25px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
  .links{
@@ -201,7 +223,8 @@
 
   .hero .trading{
     margin-bottom: 0rem;
-    font-size: 17.5vw;
+    font-size: 15vw;
+    line-height: 7vw;
   }
 
   .hero .supercharged {
@@ -234,6 +257,16 @@
     font-size: 12px;
     line-height: 15px;
   }
+
+  .hero .trading{
+    font-size: 12.5vw;
+    line-height: 12.5vw;
+  }
+  .hero .supercharged.small{
+    font-size: 12.5vw;
+    line-height: 15vw;
+  }
+  
 }
 
 
@@ -241,4 +274,10 @@
   .hero-section .trading-terminal img{
     width: 1440px;
   }
+
+  .supercharged,
+  .trading{
+    font-size: 7vw;
+  }
+
 }

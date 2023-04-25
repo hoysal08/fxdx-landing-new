@@ -30,7 +30,7 @@
     font-style: normal;
     font-size: 1.5rem;
     text-align: center;
-    width: 65rem;
+    /* width: 65rem; */
     font-weight: 500;
     line-height: 30px;
     color: #E7E7E7;
@@ -42,6 +42,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 6.5rem;
+    padding: 0 10%;
 }
 
 .liquidity-section .feature-list .feature{
@@ -135,6 +136,10 @@
     margin-top: 0;
 }
 
+.liquidity-section .trading-terminal{
+    margin-top: 0;
+}
+
 
 @media(max-width: 768px){
     .liquidity-section .title{
@@ -212,8 +217,17 @@
     .liquidity-section .image-feature-list .image-feature:nth-child(2){
         margin-left: 0;
     }
+
+    .liquidity-section .feature-list{
+        padding: 0%;
+    }
 }
 
+@media (min-width : 1040px) {
+    .liquidity-section .caption{
+        width: 65rem;
+    }
+}
 @media (min-width : 1600px) {
     .liquidity-section{
         padding: inherit;
@@ -226,4 +240,6 @@
     .liquidity-section .trading-terminal img{
         width: 100%;
     }
+
+
 }

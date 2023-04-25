@@ -14,11 +14,16 @@
     color: #FFFFFF;
     margin: 0 auto 4.5rem;
     max-width: 40rem;
+    margin-top: 3rem;
 }
 
 .trader-section .trading-terminal img{
     margin: 0 auto;
     width: 80vw;
+}
+
+.trader-section .image-feature .title{
+    margin-top: 0;
 }
 
 .trader-section .caption {
@@ -37,6 +42,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 6.5rem;
+    padding: 0 10%;
 }
 
 .trader-section .feature-list .feature{
@@ -199,6 +205,10 @@
     }
     .trader-section .image-feature-list .image-feature:nth-child(2){
         margin-left: 0;
+    }
+
+    .trader-section .feature-list{
+        padding: 0;
     }
 }
 

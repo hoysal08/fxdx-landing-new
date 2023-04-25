@@ -38,8 +38,8 @@ export function Hero() {
             <div className="hero">
                 <h1 className="trading">Trading</h1>
                 <h1 className="supercharged">Supercharged</h1>
-                <h1 className="supercharged small">Super</h1>
-                <h1 className="supercharged small">Charged</h1>
+                <h1 className="supercharged small">Supercharged</h1>
+                {/* <h1 className="supercharged small">Charged</h1> */}
             </div>
 
             <div className="hero-caption">
