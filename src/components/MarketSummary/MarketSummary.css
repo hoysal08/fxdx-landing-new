@@ -11,12 +11,14 @@
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
-    margin-top: 10rem;
-    margin-bottom: 12.5rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
 }
 
 .market-summary-section .table {
-   padding: 0 10rem;
+   padding: 0 10vw;
+   max-width: 1440px;
+   margin: auto;
 }
 
 .market-summary-section .table .table-header{
@@ -47,7 +49,7 @@
 
 .market-summary-section .table .table-body .row span p{
     margin: 0;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
     font-weight: 700;
 }
 
@@ -76,3 +78,64 @@
     color: #000000;
 }
 
+
+@media (max-width: 768px) {
+    .market-summary-section .table{
+        background: #171717;
+        border-radius: 0.65rem;
+    }
+    .market-summary-section .table .table-header{
+        margin-bottom: 2rem;
+    }
+    .market-summary-section .table .table-header span:nth-child(3){
+        display: none;
+    }
+
+    .market-summary-section .table .table-body .row span:nth-child(3){
+        display: none;
+    }
+
+    .market-summary-section .table .table-body .row span:nth-child(4),
+    .market-summary-section .table .table-body .row span:nth-child(2){
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.85rem;
+        line-height: 20px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+
+    .market-summary-section .table .table-body .row span p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 20px;
+        color: #5B5B5B;
+    }
+
+    .market-summary-section .table .table-header span{
+        width: 33.33%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.85rem;
+        line-height: 20px;
+        color: #5B5B5B;
+    }
+    .market-summary-section .table .table-body .row span{
+        width: 33.33%;
+    }
+
+    .market-summary-section .table {
+        padding: 1.5rem 5vw 0;
+        margin: 0 5vw;
+    }
+
+
+}
+
+
+@media (min-width : 1600px){
+    .market-summary-section .table{
+        padding: initial;
+    }
+}

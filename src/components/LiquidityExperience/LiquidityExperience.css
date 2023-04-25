@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10rem;
+    padding: 0 10vw;
 }
 
 .liquidity-section .title{
@@ -12,8 +12,8 @@
     line-height: 70px;
     text-align: center;
     color: #FFFFFF;
-    width: 40rem;
     margin: 6.5rem auto;
+    width: 45rem;
 }
 
 .liquidity-section .trading-terminal{
@@ -22,14 +22,15 @@
 }
 
 .liquidity-section .trading-terminal img{
-    width: 80%;
+    margin: 0 auto;
+    width: 80vw;
 }
 
 .liquidity-section .caption {
     font-style: normal;
     font-size: 1.5rem;
     text-align: center;
-    width: 65vw;
+    width: 65rem;
     font-weight: 500;
     line-height: 30px;
     color: #E7E7E7;
@@ -44,8 +45,8 @@
 }
 
 .liquidity-section .feature-list .feature{
-    flex-basis: 33%;
-    max-width: 20rem;
+    flex-basis: 30%;
+    /* max-width: 20rem; */
 }
 
 .liquidity-section .feature{
@@ -63,12 +64,14 @@
     font-size: 1rem;
     line-height: 25px;
     color: #FFFFFF;
-    display: flex;
+    /* display: flex; */
     align-items: center;
 }
 
 .liquidity-section .feature img{
     margin-right: 0.35rem;
+    height: 16px;
+    vertical-align: middle;
 }
 
 .liquidity-section .image-feature-list{
@@ -81,16 +84,21 @@
 .liquidity-section .image-feature-list .image-feature{
     background: #171717;
     border-radius: 20px;
-    width: 35vw;
+    width: 50%;
     height: 27.5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2.5rem 2rem 0rem;
 }
-.liquidity-section .image-feature-list .image-feature:nth-child(2){
-    padding: 2.5rem 0 0 2rem ;
+
+.liquidity-section .image-feature-list .image-feature:nth-child(1){
+    margin-right: 0.65rem;
 }
+.liquidity-section .image-feature-list .image-feature:nth-child(2){
+    margin-left: 0.65rem;
+}
+
 
 .liquidity-section .image-feature-list .image-feature .title{
     font-style: normal;
@@ -125,4 +133,97 @@
     color: #ABABB9;
     text-align: left;
     margin-top: 0;
+}
+
+
+@media(max-width: 768px){
+    .liquidity-section .title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 2rem;
+        width: auto;
+    }
+
+    .liquidity-section .caption{
+        width: 80%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        /* or 133% */
+
+        text-align: center;
+    }
+
+    .liquidity-section .image-feature-list{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .liquidity-section .image-feature-list .image-feature{
+        width: auto;
+        padding: 1.5rem 1rem 0rem;
+        height: 100%;
+    }
+
+    .liquidity-section .image-feature-list .image-feature:nth-child(1){
+        margin-bottom: 2rem;
+    }
+
+    .liquidity-section .image-feature-list .image-feature .title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .liquidity-section .image-feature-list .image-feature .caption{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 18px;
+        color: #ABABB9;
+    }
+
+    .liquidity-section .image-feature-list .image-feature img{
+        margin-top: 4rem;
+    }
+
+    .liquidity-section .feature-list .feature{
+        flex-basis: 45%;
+        font-size: 0.65rem;
+    }
+
+    .liquidity-section .feature span{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 0.65rem;
+        line-height: 12px;
+    }
+
+    .liquidity-section .feature img{
+        height: 12px;
+    }
+    .liquidity-section .image-feature-list .image-feature:nth-child(1){
+        margin-right: 0;
+    }
+    .liquidity-section .image-feature-list .image-feature:nth-child(2){
+        margin-left: 0;
+    }
+}
+
+@media (min-width : 1600px) {
+    .liquidity-section{
+        padding: inherit;
+    }
+
+    .liquidity-section .image-feature-list .image-feature{
+        height: 32.5rem;
+    }
+
+    .liquidity-section .trading-terminal img{
+        width: 100%;
+    }
 }

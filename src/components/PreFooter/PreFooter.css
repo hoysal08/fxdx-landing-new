@@ -5,7 +5,7 @@
     line-height: 70px;
     text-align: center;
     color: #FFFFFF;
-    width: 35rem;
+    width: 40rem;
     margin: 7.5rem auto 0;
 }
 
@@ -34,7 +34,7 @@
     line-height: 30px;
     text-align: center;
     color: #E7E7E7;
-    width: 60vw;
+    width: 60rem;
 }
 
 .pre-footer-section .email-caption{
@@ -56,23 +56,34 @@
 }
 
 .pre-footer-section .email-input{
-    width: 70vw;
+    width: 50%;
+    max-width: 55rem;
     display: flex;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-bottom: 6.5rem;
 
-    background: rgba(47, 50, 65, 0.5);
+    /* background: rgba(47, 50, 65, 0.5); */
     border: 1px solid #34384C;
     border-radius: 100px;
     margin-bottom: 6.5rem;
 }
-
+.pre-footer-section .input-container{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+}
 .pre-footer-section .email-input input{
-    width: 90vw;
+    width: 100%;
+    border: 1px solid #34384C;
 }
 
-.pre-footer-section .email-input button{
-    width: 10vw;
+input:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+
+.pre-footer-section button{
+    width: 10rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -87,7 +98,7 @@
     font-style: normal;
     font-weight: 600;
     font-size: 1rem;
-    line-height: 160%;
+    height: 2.25rem;
     color: #000000;
     flex: none;
     order: 0;
@@ -115,7 +126,7 @@
     line-height: 30px;
     text-align: center;
     color: #E7E7E7;
-    width: 58vw;
+    width: 55rem;
     margin-bottom: 0.35rem;
 }
 
@@ -197,9 +208,6 @@
 
 .section {
     width: 100%;
-    /* overflow: hidden;
-    position: relative; */
-    
     margin-top: 4.25rem;
     margin-bottom: 10rem;
 }
@@ -213,14 +221,181 @@
     display: block;
     margin: 0 auto;
     max-width: 100%;
-    transition: transform 1s ease-in-out;
+    transition: transform 1.5s ease-in-out;
     
 }
 .roadmap-image{
-    margin-left: -25%;
-}
-.roadmap-image-container:hover {
-  transform: translateX(calc(-20% ));
+    margin-left: -25vw;
 }
 
+/* .roadmap-image-container.vertical-scroll {
+  transform: translateX(calc(-20vw ));
+} */
+
+.roadmap-cropped-image{
+    display: none;
+}
+
+
+@media (max-width : 768px) {
+    .pre-footer-section .title{
+        width: auto;
+        padding: 0 5vw;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.75rem;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .pre-footer-section .caption{
+        width: 65vw;
+        padding: 0 5vw;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 20px;
+        text-align: center;
+        color: #ABABB9;
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    .pre-footer-section .token-list{
+        width: 80vw;
+        margin: 2rem auto;
+    }
+
+    .pre-footer-section .token-list img{
+        width: 10vw;
+    }
+    .pre-footer-section .token-list img:nth-child(3){
+        width: 18vw;
+    }
+
+    .pre-footer-section .email-title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.25rem;
+        line-height: 110%;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 0 5vw;
+    }
+
+    .pre-footer-section .email-caption{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 10px;
+        text-align: center;
+        color: #E5E6ED;
+        margin-bottom: 1rem;
+        padding: 0 5vw;
+
+    }
+
+    .pre-footer-section .input-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 5rem;
+    }
+
+    .pre-footer-section .email-input{
+        margin-bottom: 1.25rem;
+        width: 80%;
+    }
+
+    .pre-footer-section .email-title{
+        margin-bottom: 2rem;
+    }
+
+    .pre-footer-section .roadmap-caption{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 20px;
+        text-align: center;
+        color: #ABABB9;
+        width: 80vw;
+    }
+}
+
+@media (min-width: 1800px) {
+    .section {
+        width: 100%;
+        margin-top: 4.25rem;
+        margin-bottom: 10rem;
+    }
+    
+    .roadmap-body {
+        overflow-x: none;
+        overflow-y: none;
+    }
+      
+    .roadmap-image-container {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .roadmap-cropped-image{
+        display: block;
+    }
+
+    .pre-footer-section .roadmap-image{
+        margin-left: 0;
+        display: none;
+    }
+    
+    .roadmap-cropped-image.vertical-scroll {
+      transform: none;
+    }
+
+    .roadmap-image-container{
+        transition: none;
+    }
+    .roadmap-image-container.vertical-scroll{
+        transform: none;
+
+    }
+
+    .scroll-roadmap-image-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+  .scroll-roadmap-body {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /* scroll-behavior: smooth;  */
+     -webkit-overflow-scrolling: touch;
+    
+  }
   
+  .scroll-roadmap-body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: transparent;
+  }
+  
+  .scroll-roadmap-body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .scroll-roadmap-body::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+
+@media (min-width : 1600px) {
+    .pre-footer-section .input-container,
+    .pre-footer-section .token-list{
+        width: auto;
+    }
+}

@@ -17,13 +17,13 @@ export function MarketSummary() {
 
                 <div className="table-body">
                     <div className="row">
-                        <span><p>Bitcoin</p>BTC</span>
+                        <span>BTC<p>Bitcoin</p></span>
                         <span>$28,500</span>
                         <span>$850 Bn</span>
                         <span>+3.41%</span>
                     </div>
                     <div className="row">
-                        <span><p>Ethereum</p>ETH</span>
+                        <span>ETH<p>Ethereum</p></span>
                         <span>$2,850</span>
                         <span>$450 Bn</span>
                         <span>+3.41%</span>
@@ -44,7 +44,7 @@ export function MarketSummary() {
             </div>
 
             <div className="trade-button">
-                <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/introduction.html">Trade now</a>
+                <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/trade">Trade now</a>
             </div>
         </div>
     )
