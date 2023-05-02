@@ -26,7 +26,7 @@ export function LiquidityExperience() {
 
             <div className="caption">
                 {/* <span> */}
-                    Investors can earn consistent stable rewards and redeem them easily while keeping track of their reward and liquidity history, and have the freedom of single-sided liquidity and free exit options for their investments on a cryptocurrency platform.
+                    Built to capture deep liquidity using a one-sided model, our platform allows LPs to earn rewards in stablecoins that can be easily redeemed for other assets. Plus, tracking liquidity history is a breeze.
                 {/* </span> */}
             </div>
             <div className="feature-list">
@@ -36,33 +36,33 @@ export function LiquidityExperience() {
                 </div>
                 <div className="feature">
                     <span><img src={stablerewards} alt="Stable Rewards" />
-                    Stable Rewards.</span> Reward are stored as stable coins that can be claimed anytime.
+                    Stable Rewards.</span> LP rewards are stored as stablecoins, hence risk-free returns.
                 </div>
                 <div className="feature">
                     <span><img src={rewardhistory} alt="Reward History" />
-                    Reward History.</span> Track reward distribution and your claimed history. 
+                    Reward History.</span> Track your rewards distribution and claim history easily.
                 </div>
                 <div className="feature">
                     <span><img src={liquidityhistory} alt=" Liquidity History" />
-                    Liquidity History.</span> Track FLP minting and burning for performance evaluation.
+                    Liquidity History.</span> Use the Liquidity History to track your liquidity actions and evaluate your performance on the platform.
                 </div>
                 <div className="feature">
                     <span><img src={singlesidedliquidity} alt="Single sided liquidity" />
-                    Single sided liquidity.</span>  Provide liquidity to FLP pool with any compatible token and earn rewards.
+                    Single sided liquidity.</span>Supply Liquidity to FLP pool with a single asset of your choice. 
                 </div>
                 <div className="feature">
                     <span><img src={freeexit} alt="Free Exit" />
-                    Free Exit.</span> Withdraw liquidity from FLP pool with any compatible token and get your assets back.
+                    Free Exit.</span> Users' liquidity is not locked, giving LPs freedom to enter exit anytime with asset of their choice.
                 </div>
             </div>
 
             <div className="image-feature-list">
                 <div className="image-feature">
                     <div className="title">
-                        Reward Redemption
+                        Multi-Asset Reward Redemption
                     </div>
                     <div className="caption">
-                        Redeem your rewards with any token of the FLP pool.
+                        LP can now redeem their rewards in any asset of their choice out of pool.
                     </div>
 
                     <div className="image">
@@ -72,10 +72,10 @@ export function LiquidityExperience() {
 
                 <div className="image-feature">
                     <div className="title">
-                        Supervision of liquidity management
+                        Advanced Liquidity Management 
                     </div>
                     <div className="caption">
-                        Manage your liquidity by tracking FLP minting and burning for performance evaluation.
+                        Utilize our tracking tools to monitor your liquidity and evaluate its performance on the platform.
                     </div>
 
                     <div className="image">

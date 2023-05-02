@@ -6,6 +6,16 @@ import usdttokenicon from "../../img/usdt-token-icon.svg";
 import roadmap from "../../img/roadmap.svg";
 import roadmapCropped from "../../img/roadmapCropped.png";
 import React, { useState, useEffect, useRef} from 'react';
+import singlesidedliquidity from "../../img/single-sided-liquidity.svg";
+import liquidityhistory from "../../img/liquidity-history.svg";
+import rewardhistory from "../../img/reward-history.svg";
+import stablerewards from "../../img/stable-rewards.svg";
+import rewardredemption from "../../img/reward-redemption.svg";
+import liquiditymanager from "../../img/liquidity-manager.png";
+import walletmoneyicon from "../../img/wallet-money-icon.svg";
+import drophumidityicon from "../../img/drop-humidity-icon.svg";
+import propertymortgageicon from "../../img/property-mortgage-icon.svg";
+import Group from "../../img/Group.svg";
 
 import "./PreFooter.css";
 
@@ -67,7 +77,10 @@ export function PreFooter() {
             
             <div className="technical-analysis">
                 <div className="title">
-                    Well executed technical analysis
+                    Delivering the 
+                </div>
+                <div className="title">
+                    Best-in-class Experience 
                 </div>
             </div>
 
@@ -79,38 +92,23 @@ export function PreFooter() {
                 <img src={usdctokenicon} alt="usdc token icon" />
             </div>
 
-            <div className="caption">
-                Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit i adipiscing elit. Nunc vulputate libero et velit i 
-            </div>
-
-            <div className="email-caption">
-                Ready to start trading cryptocurrency?
-            </div>
-
-            <div className="email-title">
-                New users can earn up to $50 in crypto rewards.
-            </div>
-
-            <div className="input-container">
-                {/* <form onSubmit={handleSubmit} className="email-input"> */}
-                    <input 
-                        type="email" 
-                        value={email} 
-                        className="email-input"
-                        onChange={handleEmailChange} 
-                        style={{ 
-                            padding: '10px', 
-                            borderRadius: '100px',
-                            border : "none",
-                            fontSize: '1rem',
-                            color : "#ABABB9",
-                            paddingLeft : "1.5rem",
-                            backgroundColor: 'rgb(24 26 35)'
-                        }} 
-                        placeholder="Enter your email address"
-                    />
-                {/* </form> */}
-                    <button type="submit" onClick={handleSubmit}>Get Started</button>
+            <div className="feature-list">
+                <div className="feature">
+                    <span><img src={drophumidityicon} alt="Diversified Listings" />
+                    Diversified Listings.</span> Offering blue chip assets for our traders with deep liquidity. 
+                </div>
+                <div className="feature">
+                    <span><img src={propertymortgageicon} alt="Robust Risk Control" />
+                    Robust Risk Control.</span> Systematically managed on-chain fee model depending market conditions.
+                </div>
+                <div className="feature">
+                    <span><img src={Group} alt="Powerful Oracle" />
+                    Powerful Oracle.</span> Built-in with battle tested outlier detection, our oracle delivers best possible pricing. 
+                </div>
+                <div className="feature">
+                    <span><img src={walletmoneyicon} alt="Multi-asset Structure" />
+                    Multi-asset Structure.</span> Allowing anyone to supply collateral or liquidity with any asset of their choice.
+                </div>
             </div>
 
             <div className="roadmap-title">
@@ -118,7 +116,7 @@ export function PreFooter() {
             </div>
 
             <div className="roadmap-caption">
-                Norem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit i adipiscing elit. Nunc vulputate libero et velit i 
+                Building for an exceptional user experience, one step at a time.
             </div>
 
             <section className="scroll-roadmap-body section" ref={scrollRef} >
