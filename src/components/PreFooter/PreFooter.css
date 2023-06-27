@@ -673,7 +673,7 @@ input:focus-visible {
   .scroll-roadmap-body {
     overflow-x: scroll;
     overflow-y: hidden;
-    /* scroll-behavior: smooth;  */
+    scroll-behavior: smooth; 
      -webkit-overflow-scrolling: touch;
     
   }

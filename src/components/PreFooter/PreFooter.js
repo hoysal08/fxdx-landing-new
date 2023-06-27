@@ -29,9 +29,7 @@ export function PreFooter() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Code to send email using the email state value
-    console.log(`Sending email to ${email}`);
-    setEmail("");
+    subscribeEmail();
   };
 
   const getServerBaseUrl=()=>{
@@ -53,53 +51,46 @@ export function PreFooter() {
       fetch(`${getServerBaseUrl()}/emails/subscribe`, requestOptions)
         .then((response) => {
           if (!response.ok) {
-            // helperToast.error("Something went wrong. Please try again.");
+            //Something went wrong. Please try again
             return;
           }
-
-          // helperToast.success("Email was subscribed successfully");
+          //Email was subscribed successfully
+          setEmail("");
         })
         .catch((err) => {
-          // helperToast.error("Something went wrong. Please try again.");
+          //Something went wrong. Please try again
           console.log(err);
         });
     } else {
-      // helperToast.error("Invalid Email");
+      console.log("Invalid Email");
     }
   }, [email]);
 
   const scrollRef = useRef(null);
 
   useEffect(() => {
-    const scrollHandler = (e) => {
+
+    const mouseEnterHandler=(e)=>{
       if (scrollRef.current.contains(e.target)) {
-        const isScrollingLeft = e.deltaY < 0;
         const container = scrollRef.current;
-        const isEndReached = isScrollingLeft
-          ? container.scrollLeft === 0
-          : container.scrollLeft + container.clientWidth >=
-            container.scrollWidth;
-
-        if (!isEndReached) {
-          container.scrollLeft += e.deltaY;
-          e.preventDefault();
-        } else {
-          window.scrollBy({
-            top: 0,
-            left: isScrollingLeft ? -100 : 100,
-            behavior: "smooth",
-          });
-        }
+        console.log(container.scrollLeft);
+         container.scrollLeft=350;
+         e.preventDefault();
       }
-    };
+    }
 
-    scrollRef.current.addEventListener("wheel", scrollHandler, {
-      passive: false,
-    });
+    const mouseLeaveHandler=(e)=>{
+      if (scrollRef.current.contains(e.target)) {
+        const container = scrollRef.current;
+        console.log(container.scrollLeft);
+         container.scrollLeft=-350;
+         e.preventDefault();
+      }
+    }
 
-    return () => {
-      scrollRef.current.removeEventListener("wheel", scrollHandler);
-    };
+    scrollRef.current.addEventListener("mouseenter",mouseEnterHandler);
+    scrollRef.current.addEventListener("mouseleave",mouseLeaveHandler);
+
   }, []);
 
   return (
