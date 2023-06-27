@@ -49,7 +49,7 @@
 }
 
 .footer-left {
-    width: 13.5rem;
+    width: 10.5rem;
 }
 
 .footer-left .logo,
@@ -121,9 +121,9 @@
         /* max-width: 13.5rem; */
     }
 
-    .footer-left div{
+    /* .footer-left div{
         max-width: 13.5rem;
-    }
+    } */
 
     .footer-right{
         flex-basis: 50%;
@@ -137,6 +137,13 @@
     .footer .theme-setting{
         width: inherit;
     }
+    .footer-left .socials-container{
+        justify-content: space-evenly;
+    }
+    .footer-left .logo{
+        margin:1rem 42%;
+    }
+    
 }
 
 @media (min-width : 1600px) {

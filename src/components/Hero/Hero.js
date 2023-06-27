@@ -50,7 +50,7 @@ export function Hero() {
             </div>
 
             <div className="links">
-                <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Launch App</a>
+                <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/">Launch App</a>
                 <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/introduction.html">Docs</a>
             </div>
 

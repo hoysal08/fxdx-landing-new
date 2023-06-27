@@ -76,9 +76,9 @@ export function Footer() {
                             Products
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Mainnet</a >
+                        <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/">Mainnet</a >
                         <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Testnet</a >
-                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/buy">Add Liquidity</a >
+                        <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/buy">Add Liquidity</a >
                     </div>
                 </div>
                 <div className="footer-right">
@@ -87,8 +87,8 @@ export function Footer() {
                             Docs
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/overview">Analytics</a >
-                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/earn">Earn Dashboard</a >
+                        <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/overview">Analytics</a >
+                        <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/earn">Earn Dashboard</a >
                         <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/architectureAndInfrastructure/index.html">Whitepaper</a >
                         <a target="_blank" rel="noreferrer" href="https://github.com/fxdxdex">Github</a >
                         <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/tradingFees.html">Fees</a >

@@ -24,7 +24,7 @@ export function Header() {
 
                 <div className="page-links">
                     <p className="active">Home</p>
-                    <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Testnet</a>
+                    <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/">Mainnet</a>
                     <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/introduction.html">
                         Docs
                     </a>
@@ -38,7 +38,7 @@ export function Header() {
                 <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
                     <FaTelegramPlane color="white"  />
                 </a>
-                <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
+                <a className="socials" target="_blank" rel="noreferrer" href="https://discord.gg/AdmFvVjfjh" >
                     <SiDiscord color="white"  />
                 </a>
 
@@ -47,12 +47,12 @@ export function Header() {
                 </div> */}
 
                 <div className="launch-button">
-                    <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                        Launch Testnet
+                    <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/" >
+                        Launch Mainnet
                         <img src={oplogo} alt="op-logo" />
                     </a>
 
-                    <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">
+                    <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/">
                         Launch App
                     </a>
                 </div>
@@ -68,7 +68,7 @@ export function Header() {
 
                     <div className="page-links">
                         <p className="active">Home</p>
-                        <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/">Testnet</a>
+                        <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/">Mainnet</a>
                         <a target="_blank" rel="noreferrer" href="https://fxdx.readthedocs.io/en/latest/introduction.html">
                             Docs
                         </a>
@@ -81,7 +81,7 @@ export function Header() {
                         <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
                             <FaTelegramPlane color="white" size={24} />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://discord.gg/AdmFvVjfjh" >
                             <SiDiscord color="white" size={24} />
                         </a>
                     </div>

@@ -44,7 +44,7 @@ export function MarketSummary() {
             </div>
 
             <div className="trade-button">
-                <a target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/trade">Trade now</a>
+                <a target="_blank" rel="noreferrer" href="https://app.fxdx.exchange/trade">Trade now</a>
             </div>
         </div>
     )
