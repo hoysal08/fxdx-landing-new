@@ -45,13 +45,13 @@ export function Footer() {
                         </a>
                     </div>
 
-                    <div className="theme-setting">
+                    {/* <div className="theme-setting">
                         <div>Theme</div>
                         <div className="light-dark">
                         <span className="active symbol"><img src={moon} alt="dark mode" /></span>
                         <span className="symbol" ><img src={sun} alt="dark mode" /></span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             
                 <div className="footer-right">

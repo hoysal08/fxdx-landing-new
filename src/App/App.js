@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/">
             <Header />
             <Hero />
-            <MarketSummary />
+            {/* <MarketSummary /> */}
             <TradingExperience />
             <LiquidityExperience />
             <PreFooter />
@@ -32,7 +32,7 @@ function App() {
           <Route path="*">
             <Header />
             <Hero />
-            <MarketSummary />
+            {/* <MarketSummary /> */}
             <TradingExperience />
             <LiquidityExperience />
             <PreFooter />
