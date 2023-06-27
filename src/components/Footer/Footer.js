@@ -1,9 +1,10 @@
 import fxdxlogo from "../../img/fxdx-logo.svg";
 import sun from "../../img/sun.svg";
 import moon from "../../img/moon.svg";
-import { SiTwitter, SiDiscord } from 'react-icons/si';
-import { FaTelegramPlane } from 'react-icons/fa';
+import { SiTwitter, SiDiscord, SiGithub } from 'react-icons/si';
+import { FaMedium, FaTelegramPlane } from 'react-icons/fa';
 import "./Footer.css";
+import { AiOutlineMail } from "react-icons/ai";
 
 
 export function Footer() {
@@ -22,26 +23,20 @@ export function Footer() {
                         <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
                             <FaTelegramPlane color="white" size={24} />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://discord.gg/AdmFvVjfjh" >
                             <SiDiscord color="white"  size={24}/>
-                        </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white" size={24} />
                         </a>
                     </div>
             
                     <div className="socials-container">
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://twitter.com/fxdxdex" >
-                            <SiTwitter color="white"size={24} />
+                        <a className="socials" target="_blank" rel="noreferrer" href="mailto:team@fxdx.exchange" >
+                            <AiOutlineMail color="white"  size={24}/>
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://t.me/fxdxdex" >
-                            <FaTelegramPlane color="white" size={24} />
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://github.com/fxdxdex" >
+                            <SiGithub color="white"size={24} />
                         </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white"  size={24}/>
-                        </a>
-                        <a className="socials" target="_blank" rel="noreferrer" href="https://testnet.fxdx.exchange/" >
-                            <SiDiscord color="white"  size={24}/>
+                        <a className="socials" target="_blank" rel="noreferrer" href="https://fxdxdex.medium.com/" >
+                            <FaMedium color="white" size={24} />
                         </a>
                     </div>
 
@@ -60,7 +55,7 @@ export function Footer() {
                             Menu
                         </div>
             
-                        <a target="_blank" rel="noreferrer" href="https://discord.com/channels/891555109492899891/891555110130442275">Help Cente</a >
+                        <a target="_blank" rel="noreferrer" href="https://discord.com/channels/891555109492899891/891555110130442275">Help Center</a >
                         <a target="_blank" rel="noreferrer" href="https://fxdxdex.medium.com/">Blog</a >
                     </div>
                 </div>
